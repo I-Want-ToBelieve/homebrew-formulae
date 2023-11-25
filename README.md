@@ -8,6 +8,8 @@ brew install yakite yakite-toast-bin
 
 nix: 
 ```
+{pkgs, ...}: 
+{
  homebrew = {
     enable = true;
 
@@ -57,4 +59,5 @@ nix:
       "firefox"
     ];
   };
+}
 ```
